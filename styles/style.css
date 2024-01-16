@@ -213,6 +213,7 @@ span {
 }
 
 .hand {
+    text-decoration: none;
     transition: 0.5s;
 } .hand:hover {
     transform: rotate(-90deg);
