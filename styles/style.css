@@ -212,6 +212,12 @@ span {
     text-decoration: underline;
 }
 
+.hand {
+    transition: 0.5s;
+} .hand:hover {
+    transform: rotate(-90deg);
+}
+
 /* Media Quries */
 /* @media screen and (max-width: 900px) {
 } */
