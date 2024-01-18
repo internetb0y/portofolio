@@ -44,7 +44,7 @@ body {
     margin: 10px 10px 10px 0;
     transition: all 0.5s;
 } .nav-brand .brand-top:hover {
-    transform: translate(0, -5px);
+    transform: translate(0, 5px);
 } .nav-brand .title {
     text-decoration: none;
     font-size: 1.5rem;
@@ -81,6 +81,7 @@ body {
 .intro {
     margin: 20px 0;
     width: 65%;
+    color: #001858;
 } .intro h2 {
     font-size: 3.5rem;
     transition: 0.5s;
@@ -120,6 +121,8 @@ body {
     color: #001858;
     font-size: 1.5rem;
     padding: 5px 15px;
+} .project-container h4:hover {
+    background: #f3d2c1;
 }
 
 .project-section {
@@ -129,11 +132,104 @@ body {
     font-family: 'Open Sans', sans-serif;
     height: 500px;
     margin: 5vh 12.5vw;
-    /* background: white; */
-    border: 3.5px solid #001858;
-} .project-section p {
     color: #001858;
-    font-size: 3.5rem;
+    /* background: white; */
+    /* border: 3.5px solid #001858; */
+} .project-card {
+    height: 300px;
+    margin: 10px;
+    width: 25%;
+    border: 3.5px solid #001858;
+    transition: 0.5s;
+} .project-card:hover {
+    transform: translate(10px, -10px);
+}
+
+.p-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+} .p-1 .p-type {
+    border-bottom: 3.5px solid #001858;
+    border-right: 3.5px solid #001858;
+    padding: 5px;
+    background-color: #f3d2c1;
+} .p-1 h4 {
+    padding: 10px 5px 10px 5px;
+} .p-1 .desc {
+    padding: 10px 5px 10px 5px;
+    font-size: 0.8em;
+    /* background: white; */
+} .p-1 a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+} .p-1 a:hover {
+    color: #f582ae;
+}
+
+.p-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+} .p-2 .p-type {
+    border-bottom: 3.5px solid #001858;
+    border-right: 3.5px solid #001858;
+    padding: 5px;
+    background-color: #f3d2c1;
+} .p-2 h4 {
+    padding: 10px 5px 10px 5px;
+} .p-2 .desc {
+    padding: 10px 5px 10px 5px;
+    font-size: 0.8em;
+    /* background: white; */
+} .p-2 a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+} .p-2 a:hover {
+    color: #f582ae;
+}
+
+.p-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: auto;
+} .p-3 .p-type {
+    border-bottom: 3.5px solid #001858;
+    border-right: 3.5px solid #001858;
+    padding: 5px;
+    background-color: #f3d2c1;
+} .p-3 h4 {
+    padding: 10px 5px 10px 5px;
+} .p-3 .desc {
+    padding: 10px 5px 10px 5px;
+    font-size: 0.8em;
+    /* background: white; */
+} .p-3 a {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 5px 10px 5px;
+} .p-3 a:hover {
+    color: #f582ae;
+}
+
+.p-4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 3.5px solid #001858;
+    background-color: #f3d2c1;
 }
 
 /* Skills */
@@ -152,6 +248,8 @@ body {
     color: #001858;
     font-size: 1.5rem;
     padding: 5px 15px;
+} .skill-container h4:hover {
+    background: #f3d2c1;
 }
 
 .skill-section {
