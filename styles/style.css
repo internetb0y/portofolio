@@ -339,6 +339,7 @@ span {
     text-decoration: none;
 } span:hover {
     text-decoration: underline;
+    text-decoration-thickness: 3px;
 }
 
 /* Media Quries */
