@@ -306,7 +306,7 @@ body {
     color: #001858;
     font-size: 3rem;
     height: 100%;
-    width: 45%;
+    width: 50%;
 } .skill-card {
     display: flex;
     justify-content: center;
@@ -317,7 +317,7 @@ body {
     color: #fef6e4;
     font-size: 3.5rem;
     height: 100%;
-    width: 55%;
+    width: 50%;
     background-color: #f3d2c1;
     opacity: 1.0;
     background-image: radial-gradient(#001858 1.8px, #f3d2c1 1.8px);
