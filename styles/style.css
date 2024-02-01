@@ -155,7 +155,19 @@ body {
     height: 200px;
 }
 
-.project-one {
+.project-description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 3.5px solid #001858;
+    color: #001858;
+    font-size: 3rem;
+    height: 100%;
+    width: 100%;
+}
+
+/* .project-one {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -268,7 +280,7 @@ body {
     padding: 10px;
     width: 100%;
     background-color: #f3d2c1;
-}
+} */
 
 /* Skills */
 .skill-container {
