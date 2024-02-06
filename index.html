@@ -3,152 +3,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css">
     <link rel="icon" href="images/favicon.png">
     <title>Aji Wicaksana</title>
 </head>
 <body>
-    <!-- Navbar -->
-    <header class="header">
-        <nav class="navbar sticky">
-            <div class="nav-brand">
-                <img src="images/favicon.png" alt="brand-top" class="brand-top">
-                <a href="index.html" class="title">Aji <br> Wicaksana</a>
-            </div>
+    <main class="container">
+        <!-- Navbar -->
+        <header class="header">
+            <nav class="navbar">
+                <section class="nav-brand">
+                    <img class="brand-img-top" src="images/favicon.png" alt="brand-img-top">
+                    <a class="brand-ttl" href="index.html">Aji <br> Wicaksana</a>
+                </section>
 
-            <div class="nav-items">
                 <ul class="nav-links">
                     <li><a href="#project">Project</a></li>
                     <li><a href="#skill">Skills</a></li>
                     <li><a href="#">Social</a></li>
                 </ul>
-            </div>                                    
-        </nav>
-    </header>
+            </nav>
+        </header>
 
-    <!-- Main -->
-    <div class="greetings">
-        <article class="intro">
-            <h2>Greetings 👋</h2>
-            <h2>I'm <span>Aji Wicaksana</span>.</h2>
-            <p>
-                I am fresh graduate of <span>Informatics Engineering</span> from <span>Dian Nuswantoro University</span>, Semarang.
-                Interest in <span>Web Developer</span> especially as <span>Backend</span>, and <span>Cybersecurity</span> as <span>Pentesting.</span>
-            </p>
-        </article>
+        <!-- Content Of Web -->
+        <section class="content">
+            <section class="intro">
+                <section class="description-me">
+                    <h1>Greetings. <br> I'm Aji.</h1>
+                    <p>I'm A Website Developer And Cybersecurity Enthusiast.</p>
+                </section>
 
-        <div class="image">
-            <img src="images/favicon.png" alt="#" class="profile">
-        </div>
-    </div>
+                <section class="profile-photo">
+                    <span class="frame-img">
+                        <img class="profile" src="images/profile.png" alt="profile">
+                    </span>
+                </section>
+            </section>
 
-    <!-- Project -->
-    <div class="project-container" id="project">
-        <h4>Projects</h4>
-    </div>
+            <section id="project" class="project">
+                <span class="frame-project-title">
+                    <p class="project-title">Project</p>
+                </span>
 
-    <!-- <div class="project-section">
-        <div class="project-card">
-            <div class="project-one">
-                <div class="project-type">
-                    <p>Backend</p>
-                </div>
-
-                <article  class="desc">
-                    <h4>Authentications API</h4>
-                    <p>
-                        This feature has function for validating user when login, by comparing data at login page with data saved on database. This project still in local server.
-                    </p>
+                <article class="frame-project-card">
+                    
                 </article>
+            </section>
+        </section>
 
-                <div class="btn-more">
-                    <a href="#">More</a>
-                    <pre>Date</pre>
-                </div>
-            </div>
-        </div>
+        <!-- Footer -->
+        <footer class="footer">
+            <img class="brand-img-btm" src="images/favicon.png" alt="brand-img-btm">
+            <p>©2024 Developed By Aji</p>
+        </footer>
 
-        <div class="project-card">
-            <div class="project-two">
-                <div class="project-type">
-                    <p>Backend</p>
-                </div>
-
-                <article  class="desc">
-                    <h4>CRUD API</h4>
-                    <p>
-                        This feature has function as save, read, modification, and delete data on database. This project still in local server.
-                    </p>
-                </article>
-
-                <div class="btn-more">
-                    <a href="#">More</a>
-                    <pre>Date</pre>
-                </div>
-            </div>
-        </div>
-
-        <div class="project-card">
-            <div class="project-three">
-                <div class="project-type">
-                    <p>Backend</p>
-                </div>
-
-                <article  class="desc">
-                    <h4>REST API</h4>
-                    <p>
-                        This feature has function for transfering resources from server-side to client-side. This project still in local server.
-                    </p>
-                </article>
-
-                <div class="btn-more">
-                    <a href="#">More</a>
-                    <pre>Date</pre>
-                </div>
-            </div>
-        </div>
-        
-        <div class="project-card coming">
-            <div class="project-four">
-                <div class="project-type">
-                    <p>Coming Soon</p>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    <div class="project-section">
-        <div class="project-description">
-            <h4>Coming Soon . . .</h4>
-        </div>
-    </div>
-
-    <!-- Skill -->
-    <div class="skill-container" id="skill">
-        <h4>Skills</h4>
-    </div>
-
-    <div class="skill-section">
-        <div class="skill-description">
-            <h4>Programming Languages & Tools</h4>
-        </div>
-        <div class="skill-card">
-            Cards
-        </div>
-    </div>
-  
-    <!-- Footer -->
-    <footer class="footer">
-        <img src="images/favicon.png" alt="brand-btm" class="brand-btm">
-        <p>©2024 Aji Wicaksana - Portofolio 0.1</p>
-    </footer>
-
-    <!-- Float -->
+    </main>
 
     <!-- Javascript -->
-    <script src="scripts/script.js"></script>
+    <script type="text/javascript" src="scripts/script.js"></script>
     
 </body>
 </html>
