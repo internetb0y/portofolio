@@ -111,28 +111,31 @@ body {
 }
 
 .description-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
     width: 50%;
 } .description-me h1 {
     cursor: default;
 
-    font-size: 65px;
+    font-size: 100px;
     font-family: 'Open Sans', sans-serif;
 
     border-radius: 15px 15px 0 0;
     padding: 10px;
-
+    
     color: #172c66;
 } .description-me h1:hover {
     background: #f3d2c1;
-}
-.description-me p {
+} .description-me p {
     cursor: default;
 
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
 
-    border-top: 3px solid #172c66;
-    padding: 5px 0 0 0;
+    border-top: 5px solid #172c66;
+    padding: 10px;
 
     color: #172c66;
 }
@@ -174,7 +177,7 @@ body {
 
     width: 1200px;
 
-    margin: 30px 0;
+    margin: 80px 0;
 } .project .frame-project-title {
     display: flex;
     justify-content: flex-start;
@@ -182,17 +185,32 @@ body {
 
     width: 100%;
 
-    border-bottom: 3px solid #172c66;
+    border-bottom: 5px solid #172c66;
 } .project .project-title {
     cursor: default;
 
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
 
-    border-top: 3px solid #172c66;
-    border-right: 3px solid #172c66;
-    border-left: 3px solid #172c66;
-    padding: 10px 20px;
+    border-top: 5px solid #172c66;
+    border-right: 5px solid #172c66;
+    border-left: 5px solid #172c66;
+    padding: 15px 30px;
+
+    color: #172c66;
+} .project .frame-project-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 500px;
+    width: 1200px;
+
+    font-size: 50px;
+    font-family: 'Open Sans', sans-serif;
+
+    border: 5px solid #172c66;
+    margin: 30px;
 
     color: #172c66;
 }
@@ -210,12 +228,14 @@ body {
     border-radius: 15px 15px 0 0;
     padding: 7px;
 
-    position: absolute;
+    background: #f3d2c1;
+
+    position: fixed;
     bottom: 5px;
     right: 5px;
 } .footer .brand-img-btm {
-    width: 30px;
     height: 30px;
+    width: 30px;
     
     margin: 0 10px 0 0 ;
 } .footer p {
