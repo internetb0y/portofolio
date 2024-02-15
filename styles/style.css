@@ -164,6 +164,8 @@ body {
     border-radius: 30px;
 
     transition: 0.75s;
+
+    filter: grayscale(50%);
 } .profile-photo .profile:hover {
     transform: translate(-20px, 0);
 }
