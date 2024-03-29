@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" href="img/favicon.png">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="icon" href="./img/favicon.png">
     <title>Aji Wicaksana</title>
 </head>
 <body>
@@ -14,14 +14,21 @@
         <header class="header">
             <nav class="navbar">
                 <section class="nav-brand">
-                    <img class="brand-img-top" src="img/favicon.png" alt="brand-img-top">
-                    <a class="brand-ttl" href="index.html">Aji <br> Wicaksana</a>
+                    <img class="brand-img-top" src="./img/favicon.png" alt="brand-img-top">
+                    <a class="brand-ttl" href="./index.html">Aji <br> Wicaksana</a>
                 </section>
 
                 <ul class="nav-links">
                     <li><a href="#project">Project</a></li>
                     <li><a href="#skill">Skills</a></li>
-                    <li><a href="#">Social</a></li>
+                    <li class="parent-social">
+                        <button href="#" id="social">Social</button>
+                        <ul class="children-social show">
+                            <li><a href="https://www.linkedin.com/in/wicaksanaji/">Linkedin</a></li>
+                            <li><a href="https://twitter.com/wicaksanaji_">Twitter</a></li>
+                            <li><a href="https://github.com/internetb0y">Github</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </nav>
         </header>
@@ -61,7 +68,7 @@
     </main>
 
     <!-- Javascript -->
-    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
     
 </body>
 </html>
