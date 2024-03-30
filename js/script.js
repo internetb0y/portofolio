@@ -1,20 +1,16 @@
 // Update This File
-document.addEventListener('DOMContentLoaded', () => {
-    const socialBtn = document.querySelector('#social');
-
-    socialBtn.addEventListener('click', () => {
-        document.querySelector('.children-social').classList.toggle('show');
-    })
-
-    const popup = document.querySelector('#popup');
-
+const greetingsModal = () => {
     setTimeout(() => {
-        popup.showModal();
+        document.querySelector('#popup').showModal();
 
         const close = document.querySelector('#close');
-
-        close.addEventListener('click', () => {
-            popup.close();
-        })
+        close.addEventListener('click', () => popup.close());
     }, 0);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    greetingsModal();
+
+    const socialBtn = document.querySelector('#social');
+    socialBtn.addEventListener('click', () => document.querySelector('.children-social').classList.toggle('show'));
 })
