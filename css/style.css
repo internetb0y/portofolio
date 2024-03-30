@@ -308,6 +308,9 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
+    font-family: 'Montserrat', sans-serif;
+
     border-bottom: 3px solid #172c66;
 } .popup .message {
     font-size: 20px;
