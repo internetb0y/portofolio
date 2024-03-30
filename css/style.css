@@ -326,8 +326,6 @@ body {
     background: none;
 
     transition: 0.3s;
-} .popup #close:active {
-    border: none;
 } .popup #close:hover {
     transform: scale(1.3);
 } .popup p {
