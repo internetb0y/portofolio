@@ -202,7 +202,7 @@ body {
 
     border-radius: 30px;
 
-    transition: 0.75s;
+    transition: 0.5s;
 
     filter: grayscale(50%);
 } .profile-photo .profile:hover {
@@ -322,8 +322,8 @@ body {
     margin: 0 10px;
     padding: 0 5px;
 
-    background: none;
     color: #172c66;
+    background: none;
 } .popup #close:hover {
     transform: scale(1.2);
 } .popup p {
