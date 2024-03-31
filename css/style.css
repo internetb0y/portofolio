@@ -331,8 +331,6 @@ body {
 } .popup #close:hover {
     transform: scale(1.3);
 } .popup > p {
-    text-align: center;
-    
     margin: 10px 20px;
 } .navigation > p {
     margin: 10px 20px;
