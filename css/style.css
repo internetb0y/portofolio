@@ -291,7 +291,7 @@ body {
     font-size: 30px;
     font-family: 'Open Sans', sans-serif;
 
-    border: 3px solid 172c66;
+    border: none;
     border-radius: 15px;
 
     background: #f3d2c1;
@@ -303,6 +303,8 @@ body {
 } .popup::backdrop {
     background: #172c66;
     opacity: 0.5;
+} .border {
+    border: 3px solid #172c66;
 } .navigation {
     display: flex;
     flex-direction: row;
